@@ -47,3 +47,21 @@ Routers are devices that are used by computers in a local network, generally a h
 ### **Domains and DNS**
 As described in Question 1, domain names are names that correspond to IP addresses on a network, such as [www.google.com](https://www.google.com/) or [www.wikipedia.org](https://www.wikipedia.org/). The Domain Name System (DNS) is the computer's way of finding the IP address that corresponds to a given domain name, such as the IP address 8.8.8.8 for in the case of www.google.com. Domains and the Domain Name System were vital in the development of the internet in that they are a convenient and easy-to-remember way for the average internet user to access most web pages without having to lookup the IP addresses associated with them.
 
+## Question 3
+This section will define the following technologies and explain their contribution to the development of client and server communication over the internet
+- Transmission Control Protocol (TCP)
+- HyperText Transfer Protocol (HTTP) and HyperText Transfer Protocol Secure (HTTPS)
+- Web browsers (requests, rendering and development tools)
+
+### **TCP**
+Transmission Control Protocol or TCP works in conjunction with Internet Protocols (IPs) to transfer packets over the internet. While IP tells packets where to go in terms of their source and destination, TCP controls the packets upon arrival at their destination. TCP makes sure that all packets are received and tells the sender when each packet is received. It checks the packets and puts them in order that the data should be opened, rather than the order they were received. This makes it easier for clients and servers to communicate because data can be separated into smaller packets to cause less stress on networks. Additionally, these packets can travel on any network depending on which is most effective at getting that specific packet to it's destination, rather than having to send all packets on the same network or risk the data being unusable if it's received out of order.
+
+### **HTTP and HTTPS**
+HyperText Transfer Protocol (also known as HTTP) is a network protocol standard created in the early 1990s that allows computers and servers to communicate by exchanging data. This protocol focuses on delivering information without concern for how the data travels over the network or whether it is accessed during transit. This means that the connection is vulnerable to others opening, reading and adjusting the data within.
+
+HyperText Transfer Protocol Secure (HTTPS) is the same as HTTP but is secured by Transport Layer Security (TLS) allowing it to create a secure connection between the web server and the user's web browser. This connection ensures that the data can't be read or tampered with during transit.
+
+The development of both of these technologies means that users can send their credentials to banks and online shopping websites over the internet and not have to worry about their data being read or altered (so long as the site is secured with a HTTPS connection).
+
+### **Web Browsers**
+A web browser is an application that is run on a user's desktop or mobile device to explore the internet. The web browser requests information from the URL input by the user, and the web browser renders the information using it's rendering engine.
