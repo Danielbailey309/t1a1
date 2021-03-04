@@ -64,4 +64,6 @@ HyperText Transfer Protocol Secure (HTTPS) is the same as HTTP but is secured by
 The development of both of these technologies means that users can send their credentials to banks and online shopping websites over the internet and not have to worry about their data being read or altered (so long as the site is secured with a HTTPS connection).
 
 ### **Web Browsers**
-A web browser is an application that is run on a user's desktop or mobile device to explore the internet. The web browser requests information from the URL input by the user, and the web browser renders the information using it's rendering engine.
+A web browser is an application that is run on a user's desktop or mobile device to explore the internet. The web browser requests information from the URL input by the user, and the web browser renders the information using it's rendering engine. These web browsers also contain web development tools, that provide an interface to view the code run on the web page alongside the web page itself.
+
+Web browsers have proven invaluable to the development of the internet because they provide the average web user with an interface for displaying web pages that is both easy to use and navigate. Additionally, it allows web developers a more detailed view of how their code runs and where errors are occurring, as well as letting them see how code works on any website and giving them the opportunity to adapt it to their own.
